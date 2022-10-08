@@ -1,5 +1,5 @@
 
-package com.example.Portfolio.SpringBoot.model;
+package com.example.Portfolio.SpringBoot.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

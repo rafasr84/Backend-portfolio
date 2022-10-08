@@ -1,7 +1,7 @@
 
 package com.example.Portfolio.SpringBoot.service;
 
-import com.example.Portfolio.SpringBoot.model.Persona;
+import com.example.Portfolio.SpringBoot.Entity.Persona;
 import java.util.List;
 
 

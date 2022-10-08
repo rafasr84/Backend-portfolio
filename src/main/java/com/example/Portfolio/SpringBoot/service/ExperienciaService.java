@@ -1,7 +1,7 @@
 
 package com.example.Portfolio.SpringBoot.service;
 
-import com.example.Portfolio.SpringBoot.model.Experiencia;
+import com.example.Portfolio.SpringBoot.Entity.Experiencia;
 import com.example.Portfolio.SpringBoot.repository.ExperienciaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

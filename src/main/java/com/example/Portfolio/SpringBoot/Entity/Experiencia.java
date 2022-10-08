@@ -1,5 +1,5 @@
 
-package com.example.Portfolio.SpringBoot.model;
+package com.example.Portfolio.SpringBoot.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,26 +10,31 @@ import lombok.Setter;
 
 @Getter @Setter
 @Entity
-public class Estudio {
+public class Experiencia {
     
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
-    private String titulo;
-    private String institucion;
+    private String posicion;
+    private String empresa;
     private String ciudad;
     private String fechaInicio;
     private String fechaFinal;
+    private String descripcion;
 
-    public Estudio () {
-    }
-    public Estudio(Long id, String titulo, String institucion, String ciudad, String fechaInicio, String fechaFinal){
+
+public Experiencia(){
+
+}
+
+public Experiencia(Long id, String posicion, String empresa, String ciudad, String fechaInicio, String fechaFinal, String descripcion){
         this.id = id;
-        this.titulo = titulo;
-        this.institucion = institucion;
+        this.posicion = posicion;
+        this.empresa = empresa;
         this.ciudad = ciudad;
         this.fechaInicio = fechaInicio;
         this.fechaFinal = fechaFinal;
+        this.descripcion=descripcion;
 
 }
     

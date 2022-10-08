@@ -1,7 +1,7 @@
 
 package com.example.Portfolio.SpringBoot.service;
 
-import com.example.Portfolio.SpringBoot.model.Estudio;
+import com.example.Portfolio.SpringBoot.Entity.Estudio;
 import com.example.Portfolio.SpringBoot.repository.EstudioRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

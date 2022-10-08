@@ -1,7 +1,7 @@
 
 package com.example.Portfolio.SpringBoot.service;
 
-import com.example.Portfolio.SpringBoot.model.Estudio;
+import com.example.Portfolio.SpringBoot.Entity.Estudio;
 import java.util.List;
 
 

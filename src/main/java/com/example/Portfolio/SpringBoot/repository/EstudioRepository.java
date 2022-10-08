@@ -1,7 +1,7 @@
 
 package com.example.Portfolio.SpringBoot.repository;
 
-import com.example.Portfolio.SpringBoot.model.Estudio;
+import com.example.Portfolio.SpringBoot.Entity.Estudio;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

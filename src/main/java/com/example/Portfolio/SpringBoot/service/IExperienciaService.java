@@ -1,7 +1,7 @@
 
 package com.example.Portfolio.SpringBoot.service;
 
-import com.example.Portfolio.SpringBoot.model.Experiencia;
+import com.example.Portfolio.SpringBoot.Entity.Experiencia;
 import java.util.List;
 
 
